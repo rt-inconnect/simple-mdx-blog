@@ -1,6 +1,2 @@
-import React from "react"
-import { ContainerWrapper } from "../elements"
-
-export const Container = ({ children }) => {
-  return <ContainerWrapper>{children}</ContainerWrapper>
-}
+export * from "./Container"
+export * from "./Nav"
